@@ -1,0 +1,113 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-position: center;
+  font-family: 'Courier New', Courier, monospace; 
+  text-align: center;
+  color: rgb(10, 10, 10);
+  margin: auto; 
+  margin-left: auto;
+  margin-left: auto;
+  background: url(hype.jpg) no-repeat;
+  background-size: cover;
+}
+nav{
+    width: 68%;
+    float:right;
+    }
+    nav ul{
+        list-style: none;
+        float: right;
+        }
+        nav ul li {
+        display: inline-block;
+        }
+nav ul li a {
+            text-decoration: none;
+            color: rgb(6, 1, 8);
+            font-family:san-seriff;
+            font-weight:bold;
+            margin: 0 10px;
+            line-height:40px;
+            text-transform:uppercase;
+            display: inline-block;
+            }
+ 
+    }
+    input {
+        color: rgb(5, 4, 5);
+        font-family:san-seriff;
+        float: left;
+        font-weight:bold;
+        margin: 0 10px;
+        line-height:40px;
+        text-transform:uppercase;
+     }
+     
+    .login-box{
+        width: 250px;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, 50%);
+        color: rgb(12, 2, 2);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .textbox{
+        width: 100%;
+        font-size: 30px;
+        padding: 8px, 0;
+        margin: 8px, 0;
+        overflow: hidden;
+        border-bottom: 1px solid #0b0c0b;
+    }
+    .btn{
+        font-size: 20px;
+        padding: 10px, 10;
+        margin: 10px, 10;
+        overflow: hidden;
+        border-bottom: 1px solid #080808;
+        margin: 10px;
+        float: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    .login-box h1{
+        width: 100%;
+        float: left;
+        font-size: 40px;
+        padding: 1px, 0;
+        border-bottom: 1px solid #0d0e0d;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .textbox input{
+        background: none;
+        border: none;
+        outline: none;
+        color: rgb(14, 5, 5);
+        font-size: 20px;
+        width: 100%;
+        float: left;
+        margin: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    .topnav{
+        float: left;
+        font-size: 10px;
+        padding: 1px, 0;
+        border-bottom: 1px solid #0c0c0c;
+    }
+    footer p{
+        color: white;
+        padding: 3px;
+        text-align: center;
+        margin: 3px;
+        background-color: rgb(8, 8, 8);
+        margin: 30%;
+        margin-left: initial;
+        margin-right: initial;
+            }
